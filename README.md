@@ -12,7 +12,7 @@ AquesTalk Installer は、[AquesTalk](https://www.a-quest.com/products/index.htm
 
 ## AquesTalk Pi (Raspberry Pi)
 ### 事前準備
-AquesTalk Pi のインストールおよび利用時に以下のコマンドが必要なため、事前にインストールする。
+AquesTalk Pi のインストールおよび利用時に以下のコマンドが必要なため、インストールしていない場合は事前にインストールする。
 
 * [zcat](https://command-not-found.com/zcat)
 * [aplay](https://command-not-found.com/aplay)
