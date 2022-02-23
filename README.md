@@ -1,6 +1,8 @@
 # AquesTalk Installer
 AquesTalk Installer は、[AquesTalk](https://www.a-quest.com/products/index.html) (通称、ゆっくりボイス、または、棒読みちゃん) を簡単にインストールするためのインストーラである。
 
+[オンラインデモ](https://www.a-quest.com/demo/index.html)
+
 ## AquesTalk10
 未実装
 
