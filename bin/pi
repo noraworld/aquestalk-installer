@@ -1,0 +1,15 @@
+#!/bin/sh
+
+DOWNLOAD_SCHEME="https"
+DOWNLOAD_DOMAIN="www.a-quest.com"
+DOWNLOAD_PAGE_PATH="products/aquestalkpi.html"
+DOWNLOAD_PATH_PATTERN="archive/package/aquestalkpi-.*\.tgz"
+DOWNLOAD_PATH="$(wget -qO- $DOWNLOAD_SCHEME://$DOWNLOAD_DOMAIN/$DOWNLOAD_PAGE_PATH | grep -o "$DOWNLOAD_PATH_PATTERN")"
+DOWNLOAD_URL="$DOWNLOAD_SCHEME://$DOWNLOAD_DOMAIN/$DOWNLOAD_PATH"
+
+wget $DOWNLOAD_URL -O aquestalkpi.tgz
+zcat aquestalkpi.tgz | tar xv
+mv aquestalkpi/AquesTalkPi aquestalkpi/AquesTalkPi32
+mv aquestalkpi/bin64/AquesTalkPi aquestalkpi/AquesTalkPi
+rmdir aquestalkpi/bin64
+rm aquestalkpi.tgz
