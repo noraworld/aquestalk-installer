@@ -9,7 +9,11 @@ DOWNLOAD_URL="$DOWNLOAD_SCHEME://$DOWNLOAD_DOMAIN/$DOWNLOAD_PATH"
 
 wget $DOWNLOAD_URL -O aquestalkpi.tgz
 zcat aquestalkpi.tgz | tar xv
-mv aquestalkpi/AquesTalkPi aquestalkpi/AquesTalkPi32
-mv aquestalkpi/bin64/AquesTalkPi aquestalkpi/AquesTalkPi
-rmdir aquestalkpi/bin64
+
+if [ "$(getconf LONG_BIT)" = "64" ]; then
+  mv aquestalkpi/AquesTalkPi aquestalkpi/AquesTalkPi32
+  mv aquestalkpi/bin64/AquesTalkPi aquestalkpi/AquesTalkPi
+  rmdir aquestalkpi/bin64
+fi
+
 rm aquestalkpi.tgz
