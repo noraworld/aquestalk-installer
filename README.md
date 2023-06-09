@@ -4,13 +4,13 @@ AquesTalk Installer は、[AquesTalk](https://www.a-quest.com/products/index.htm
 [オンラインデモ](https://www.a-quest.com/demo/index.html)
 
 ## AquesTalk10
-Windows 機がないため実装できません。[プルリクエスト](/pulls)をお待ちしております。
+Windows 機がないため実装できません。[プルリクエスト](https://github.com/noraworld/aquestalk-installer/pulls)をお待ちしております。
 
 ## AquesTalk2
-Windows 機がないため実装できません。[プルリクエスト](/pulls)をお待ちしております。
+Windows 機がないため実装できません。[プルリクエスト](https://github.com/noraworld/aquestalk-installer/pulls)をお待ちしております。
 
 ## AquesTalk1
-Windows 機がないため実装できません。[プルリクエスト](/pulls)をお待ちしております。
+Windows 機がないため実装できません。[プルリクエスト](https://github.com/noraworld/aquestalk-installer/pulls)をお待ちしております。
 
 ## AquesTalk Pi (Raspberry Pi)
 ### 事前準備
