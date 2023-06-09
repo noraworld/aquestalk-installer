@@ -1,5 +1,5 @@
 # AquesTalk Installer
-AquesTalk Installer は、[AquesTalk](https://www.a-quest.com/products/index.html) (通称、ゆっくりボイス、または、棒読みちゃん) を簡単にインストールするためのインストーラです。
+AquesTalk Installer は、日本語の音声合成エンジンである [AquesTalk](https://www.a-quest.com/products/index.html) (通称: ゆっくり霊夢、ゆっくり魔理沙、ゆっくりボイス、棒読みちゃん) を簡単にインストールするためのインストーラです。
 
 [オンラインデモ](https://www.a-quest.com/demo/index.html)
 
@@ -46,4 +46,4 @@ aquestalkpi/AquesTalkPi -s 150 -v f2 -k -o out.wav "ファイルニ、シュツ'
 aplay out.wav
 ```
 
-より詳しい使い方は [AquesTalk Pi の使い方まとめ](http://blog-yama.a-quest.com/?eid=970157) を参照してください。
+より詳しい使い方は [AquesTalk Pi の使い方まとめ](http://blog-yama.a-quest.com/?eid=970157)を参照してください。
